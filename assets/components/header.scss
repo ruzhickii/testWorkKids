@@ -1,0 +1,71 @@
+.header{
+  display: block;
+
+  .headerWrap{
+    background: #fff;
+
+    .titleHeader{
+      background: #115a8b;
+      color: #fff;
+      padding: 5px 40px;
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+      }
+    }
+
+    .imgBlock{
+      padding: 16px 7px;
+      margin-left: 25px;
+
+      img{
+        width: 100%;
+      }
+    }
+
+    .mainBlockTel{
+      margin: 40px 0;
+      text-align: right;
+
+      .tel{
+        color: #737373;
+        font-size: 25px;
+      }
+
+      @media screen and (max-width: 768px) {
+        text-align: center;
+        padding: 5px 7px;
+      }
+    }
+
+    .mainBlockIcons{
+      margin-top: 53px;
+      display: flex;
+      flex-direction: row;
+
+      .iconBlock{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin-left: 5px;
+        border: 4px solid #f27448;
+        border-radius: 100%;
+
+        i{
+          color: #f27448;
+          font-size: 25px;
+          line-height: 30px;
+
+        }
+
+        @media screen and (max-width: 768px) {
+          text-align: center;
+          margin-bottom: 50px;
+        }
+      }
+
+
+    }
+  }
+
+}
