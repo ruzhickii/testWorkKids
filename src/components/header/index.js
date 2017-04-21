@@ -12,20 +12,20 @@ class Header extends Component {
                                    <span>Летние скидки приближаются!</span>
                                </div>
                            </div>
-                           <div className="col-xs-12 col-sm-8 col-md-6">
+                           <div className="col-xs-12 col-sm-12 col-md-6">
                                <div className="imgBlock">
                                    <img src={require('../../../static/images/logo.png')} alt=""/>
                                </div>
                            </div>
-                           <div className="col-xs-12 col-sm-4 col-md-6">
+                           <div className="col-xs-12 col-sm-12 col-md-6">
                                <div className="row">
-                                   <div className="col-xs-12 col-md-8">
+                                   <div className="col-xs-12 col-sm-6 col-md-8">
                                        <div className="mainBlockTel">
                                            <div className="tel">067-398-4617</div>
                                            <div className="tel">066-521-9728</div>
                                        </div>
                                    </div>
-                                   <div className="col-xs-12 col-md-4">
+                                   <div className="col-xs-12 col-sm-6 col-md-4">
                                        <div className="mainBlockIcons">
                                            <div className="iconBlock">
                                                <a href="#">

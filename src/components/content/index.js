@@ -83,7 +83,7 @@ class Content extends Component {
                                         <span>Каталог товаров</span>
                                     </div>
                                 </div>
-                                <div className="col-xs-12 col-sm-12 col-md-4">
+                                <div className="col-xs-12 col-sm-8 col-md-8">
                                     <div>
                                         <ul className="uList">
                                             <li><a href="">Новинки</a></li>
@@ -96,12 +96,6 @@ class Content extends Component {
                                             <li><a href="">Развивающие игрушки</a></li>
                                             <li><a href="">Настольные игры</a></li>
                                             <li><a href="">Творчество</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div className="col-xs-12 col-sm-12 col-md-4">
-                                    <div>
-                                        <ul className="uList">
                                             <li><a href="">Канцелярия</a></li>
                                             <li><a href="">Книги</a></li>
                                             <li><a href="">Разукраски</a></li>
@@ -115,7 +109,7 @@ class Content extends Component {
                                         </ul>
                                     </div>
                                 </div>
-                                <div className="col-xs-12 col-sm-12 col-md-4">
+                                <div className="col-xs-12 col-sm-4 col-md-4">
                                     <div className="imgBlock">
                                         <img src={require('../../../static/images/img_7_03.png')} alt=""/>
                                     </div>

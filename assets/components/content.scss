@@ -100,6 +100,8 @@
           line-height: 30px;
           font-weight: bold;
           font-size: 17px;
+          column-count: 2;
+          column-gap: 55px;
 
           li {
 
@@ -111,6 +113,7 @@
           @media screen and (max-width: 768px) {
             text-align: center;
             padding-left: 0;
+            column-count: 1;
           }
         }
 
@@ -124,6 +127,7 @@
           @media screen and (max-width: 768px) {
             text-align: center;
             margin:0 auto;
+
           }
         }
       }
