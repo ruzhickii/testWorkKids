@@ -18,7 +18,10 @@ class Content extends Component {
                                 </div>
                                 <div className="col-xs-12 col-sm-12">
                                     <div className="textBlock">
-                                        <p>Приближается лето,а вместе с ним и каникулы!Дайте возможность детям провести его весело и интересно Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco .</p>
+                                        <p>Приближается лето,а вместе с ним и каникулы!Дайте возможность детям провести
+                                            его весело и интересно Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                                            enim ad minim veniam, quis nostrud exercitation ullamco .</p>
                                     </div>
                                 </div>
                             </div>
@@ -37,7 +40,7 @@ class Content extends Component {
                                 <div className="cardWrapper">
                                     {[...Array(3)].map((n, index) =>
                                         <div key={index} className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                            <Card card = {cardProps[index]} />
+                                            <Card card={cardProps[index]}/>
                                         </div>
                                     )}
                                 </div>
@@ -58,9 +61,9 @@ class Content extends Component {
                                     </div>
                                 </div>
                                 <div className="cardWrapper">
-                                    {[3,4,5].map((n, index) =>
+                                    {[3, 4, 5].map((n, index) =>
                                         <div key={index} className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                            <Card card = {cardProps[n]} />
+                                            <Card card={cardProps[n]}/>
                                         </div>
                                     )}
                                 </div>
@@ -76,9 +79,9 @@ class Content extends Component {
                         <div className="contentWrap">
                             <div className="row">
                                 <div className="col-xs-12 col-sm-12 col-md-12">
-                                   <div className="titleSection_4">
-                                       <span>Каталог товаров</span>
-                                   </div>
+                                    <div className="titleSection_4">
+                                        <span>Каталог товаров</span>
+                                    </div>
                                 </div>
                                 <div className="col-xs-12 col-sm-12 col-md-4">
                                     <div>

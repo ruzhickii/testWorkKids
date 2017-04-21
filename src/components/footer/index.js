@@ -9,12 +9,12 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-xs-12 col-sm-12 col-md-6">
                                 <div className="leftBlock">
-                                    <p>2017 Гуртовня "Розумна играшка"</p>
+                                    <p>&copy; 2017 Гуртовня "Розумна играшка"</p>
                                 </div>
                             </div>
                             <div className="col-xs-12 col-sm-12 col-md-6">
                                 <div className="rightBlock">
-                                    <a href="#"><span>Отписаться от рассылки</span></a>
+                                    <a href="#"><span> Отписаться от рассылки</span></a>
                                 </div>
                             </div>
                         </div>

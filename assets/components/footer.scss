@@ -1,12 +1,13 @@
 .footer{
 
   .footerWrap{
-    border-top: 1px solid #dfe2e4;
+    border-top: 2px solid #dfe2e4;
     background: #fff;
 
   .leftBlock{
     text-align: center;
     margin: 25px;
+    color: #9f9f9f;
     }
 
   .rightBlock{
@@ -15,9 +16,17 @@
 
     a{
       text-decoration: none;
-      color: #000;
+      color: #9f9f9f;
     }
+    }
+    @media screen and (max-width: 768px) {
+      .leftBlock{
+        margin: 10px;
+      }
+
+      .rightBlock{
+        margin:10px;
+      }
     }
   }
-
 }

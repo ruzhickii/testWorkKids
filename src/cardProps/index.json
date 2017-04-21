@@ -4,8 +4,9 @@
         "alt": "some title",
         "url": "../../../static/images/img.jpg"
       },
-      "name":"Игрушка 'Тачка технокэ' арт.1226 ",
-      "price":78.00
+      "name":"Игрушка 'Тачка техноК' арт.1226 ",
+      "price": "78.00",
+      "currency": "грн"
     },
     {
       "img": {
@@ -13,7 +14,8 @@
         "url": "../../../static/images/img.jpg"
       },
       "name":"Бутылка с широрким горлышком Easystart-Newborn",
-      "price":89.12
+      "price": "89.12",
+      "currency": "грн"
     },
     {
       "img": {
@@ -21,15 +23,17 @@
         "url": "../../static/images/img.jpg"
       },
       "name":"Антистрессовая игрушка 'SOFT TOYS 43'",
-      "price":165.30
+      "price": "165.30",
+      "currency": "грн"
     },
     {
       "img": {
         "alt": "some title",
         "url": "../../static/images/img.jpg"
       },
-      "name":"Игрушка 'Тачка технокэ' арт.1226",
-      "price":78.00
+      "name":"Игрушка 'Тачка техноК' арт.1226",
+      "price": "78.00",
+      "currency": "грн"
     },
     {
       "img": {
@@ -37,7 +41,8 @@
         "url": "../../static/images/img.jpg"
       },
       "name":"Бутылка с широрким горлышком Easystart-Newborn",
-      "price":89.12
+      "price": "89.12",
+      "currency": "грн"
     },
     {
       "img": {
@@ -45,7 +50,8 @@
         "url": "../../static/images/img.jpg"
       },
       "name":"Антистрессовая игрушка 'SOFT TOYS 43",
-      "price":165.30
+      "price": "165.30",
+      "currency": "грн"
     }
 
 ]

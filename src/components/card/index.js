@@ -16,8 +16,12 @@ class Card extends Component {
                     <img src={img} alt={card.img.alt}/>
                 </div>
                 <div className="cardContent">
-                    <div><span className="nameCard">{card.name}</span></div>
-                    <div><span className="priceCard">{card.price}</span></div>
+                    <div className="nameCardMainBlock">
+                        <span className="nameCard">{card.name}</span>
+                    </div>
+                    <div className="priceCardMainBlock">
+                        <span className="priceCard">{card.price} {card.currency}</span>
+                    </div>
                 </div>
             </div>
         )

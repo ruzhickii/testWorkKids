@@ -1,0 +1,38 @@
+.mainCardBlock{
+
+  .cardImgBlock{
+    text-align: center;
+
+    img{
+
+    }
+  }
+
+  .cardContent{
+
+    .nameCardMainBlock{
+      text-align: center;
+      margin-top: 30px;
+      color: #9f9f9f;
+
+    .nameCard{
+
+    }
+  }
+
+    .priceCardMainBlock{
+      text-align: center;
+      font-weight: bold;
+      margin-top: 10px;
+      font-size: 15px;
+
+      .priceCard{
+        color: #ee4047;
+
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    margin-bottom: 50px;
+  }
+}
